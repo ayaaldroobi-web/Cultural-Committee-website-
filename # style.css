@@ -14,3 +14,26 @@ h2 h3 h4 h5 h6{
     font-size: 45px;
     color: black;
 } 
+/*Navigation Bar styling */
+
+nav ul {
+    list-style-type:none;
+    overflow: hidden;
+    background-color:#ccb28a4a;
+
+}
+ul li{
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color:#191310;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color:#CCB28A;
+
+} 
