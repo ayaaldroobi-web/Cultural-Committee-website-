@@ -17,23 +17,31 @@ h2 h3 h4 h5 h6{
 /*Navigation Bar styling */
 
 nav ul {
-    list-style-type:none;
-    overflow: hidden;
-    background-color:#ccb28a4a;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
 
+nav ul li {
+  float: left;
 }
-ul li{
-    float: left;
-}
+
 nav ul li a {
-    display: block;
-    color:#191310;
-    text-align: center;
-    padding:14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-nav ul li a:hover{
-    background-color:#CCB28A;
+nav ul li a:hover {
+  background-color: #111111;
+}
 
-} 
+nav ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
