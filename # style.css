@@ -22,6 +22,9 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav ul li {
@@ -30,14 +33,21 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
-  padding: 14px 16px;
+  padding: 9px 14px;
   text-decoration: none;
 }
 
 nav ul li a:hover {
   background-color: #111111;
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: right; 
+  color: white;
 }
 
 nav ul {
