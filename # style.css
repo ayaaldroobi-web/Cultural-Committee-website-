@@ -1,7 +1,7 @@
 /*Ubuntu Font Family*/
 h1{
     font-family: "Ubuntu", sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
     color: black;
 }
@@ -14,6 +14,21 @@ h2 h3 h4 h5 h6{
     font-size: 45px;
     color: black;
 } 
+
+/*Top logo styling*/
+
+.logo {
+  display:flex;
+  align-items: center;
+  gap:10px;
+
+}
+
+.logo h6{
+  margin: 0;
+  font-size: 25px;
+}
+
 /*Navigation Bar styling */
 
 nav ul {
@@ -22,7 +37,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
-  position: fixed;
+  position:bottom;
   top: 0;
   width: 100%;
 }
@@ -43,15 +58,28 @@ nav ul li a:hover {
   background-color: #111111;
 }
 /* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
+.section-footer{
+  padding: 0px;
+  margin: 0px;
+
+}
+.footer{
+  background-color: #106187;
+  margin-top: 50%;
+  margin-bottom: -20px;
+
+}
+.Copy-rights {
   text-align: right; 
-  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-nav ul {
-  position: fixed;
-  top: 0;
-  width: 100%;
+.Copy-rights h4{
+  font-size: 20px;
+  display: inline-block;
+  width: fit-content;
+  padding: 10px;
+  color: #d1932a;
 }
+
