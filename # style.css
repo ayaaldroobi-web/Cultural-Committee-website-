@@ -6,7 +6,7 @@ h1{
     color: black;
 }
 
-/*Ubuuntu condenced font family*/
+/*Ubuntu condenced font family*/
 
 h2 h3 h4 h5 h6{
     font-family: "Ubuntu Condensed", sans-serif;
@@ -30,6 +30,10 @@ h2 h3 h4 h5 h6{
 }
 
 /*Navigation Bar styling */
+nav{
+  display: flex;
+  align-items: center;
+}
 
 nav ul {
   list-style-type: none;
@@ -39,7 +43,7 @@ nav ul {
   background-color: #333333;
   position:bottom;
   top: 0;
-  width: 100%;
+  width:100%;
 }
 
 nav ul li {
@@ -56,6 +60,28 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #111111;
+}
+/*Search bar in navigtion bar*/
+.search-bar {
+  display: flex;
+  position: relative;
+  margin-left: auto;
+}
+
+.search-bar input{
+  padding:8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: antiquewhite;
+}
+
+.search-bar i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 /* Style the footer */
 .section-footer{
@@ -82,4 +108,5 @@ nav ul li a:hover {
   padding: 10px;
   color: #d1932a;
 }
+
 
