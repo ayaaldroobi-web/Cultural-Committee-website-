@@ -66,6 +66,9 @@ nav ul li a:hover {
   display: flex;
   position: relative;
   margin-left: auto;
+  background-color: aqua;
+  margin-left:auto;
+
 }
 
 .search-bar input{
@@ -76,8 +79,8 @@ nav ul li a:hover {
   background-color: antiquewhite;
 }
 
-.search-bar i {
-  position: absolute;
+.search-bar i{
+  position:absolute;
   top: 50%;
   right: 10px;
   transform: translateY(-50%);
