@@ -94,6 +94,47 @@ nav ul li a:hover {
   transform: translateY(-50%);
   cursor: pointer;
 }
+/*Styilying the flex box for current events*/
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize-min-css";
+
+.media-scroller{
+  --_spacer: var(--size-3);
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+  grid-auto-columns: 2%;
+  padding: 0 var(--_spacer) var(--_spacer);
+  
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.media-element{
+  display: grid;
+  grid-template-rows: min-content;
+  gap: var(--_spacer);
+  background: var(--_spacer);
+  border-radius: var(--_spacer);
+  box-shadow: var(--shadow-2);
+
+}
+
+.media-element>img{
+  inline-size: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.snap-inline{
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: ver (var(--_spacer), 1rem);
+}
+
+.snap-inline > *{
+  scroll-snap-align: start, 1rem;
+}
+
 /* Style the footer */
 .section-footer{
   padding: 0px;
