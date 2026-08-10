@@ -44,6 +44,7 @@ nav ul {
   position:bottom;
   top: 0;
   width:100%;
+ 
 }
 
 nav ul li {
@@ -56,6 +57,7 @@ nav ul li a {
   text-align: center;
   padding: 9px 14px;
   text-decoration: none;
+  font-size: 20px;
 }
 
 nav ul li a:hover {
@@ -66,7 +68,6 @@ nav ul li a:hover {
   display: flex;
   position: relative;
   margin-left: auto;
-  background-color: aqua;
   margin-left:auto;
 
 }
@@ -74,7 +75,7 @@ nav ul li a:hover {
 .navigation-bar {
   display:flex;
   justify-content: space-between;
-  padding: 0px 5%;
+  padding: 0px 20%;
   background-color: #333333;
   align-content: center;
 }
@@ -100,7 +101,7 @@ nav ul li a:hover {
 
 .media-scroller{
   --_spacer: var(--size-3);
-  display: grid;
+  display: flex;
   gap: var(--_spacer);
   grid-auto-flow: column;
   grid-auto-columns: 2%;
@@ -111,7 +112,7 @@ nav ul li a:hover {
 }
 
 .media-element{
-  display: grid;
+  display: flex;
   grid-template-rows: min-content;
   gap: var(--_spacer);
   background: var(--_spacer);
@@ -134,7 +135,6 @@ nav ul li a:hover {
 .snap-inline > *{
   scroll-snap-align: start, 1rem;
 }
-
 /* Style the footer */
 .section-footer{
   padding: 0px;
@@ -159,7 +159,5 @@ nav ul li a:hover {
   width: fit-content;
   padding: 10px;
   color: #d1932a;
-}
-
 
 
