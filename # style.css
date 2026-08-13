@@ -8,7 +8,7 @@ h1{
 
 /*Ubuntu condenced font family*/
 
-h2 h3 h4 h5 h6{
+h2 h3 h4 h5 h6 p{
     font-family: "Ubuntu Condensed", sans-serif;
     font-style: normal;
     font-size: 45px;
@@ -95,6 +95,56 @@ nav ul li a:hover {
   transform: translateY(-50%);
   cursor: pointer;
 }
+
+/*styling of welcoming paragraph*/
+.welcome-paragraph{
+  
+  padding: 40px 20px 0px;
+  font-size: large;
+  line-height: 30px; 
+  max-width: 800px;  
+  margin: 0 auto;    
+   
+   
+}
+
+/*styling of welcome title*/
+.welcome > header > h1{
+  padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+/*styling of recent events paragraph*/
+
+
+/*.current-events > p{
+  padding: 1rem;
+  font-size: large;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}*/
+
+.current-events > p{
+  padding: 40px 20px 0px;
+  font-size: large;
+  line-height: 30px; 
+  max-width: 800px;  
+  margin: 0 auto;  
+}
+
+/*styling of recent events title*/
+.current-events > header > h1{
+  padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
 /*Styilying the flex box for current events*/
 @import "https://unpkg.com/open-props";
 @import "https://unpkg.com/open-props/normalize-min-css";
@@ -104,11 +154,14 @@ nav ul li a:hover {
   display: flex;
   gap: var(--_spacer);
   grid-auto-flow: column;
+  justify-content: center;
   grid-auto-columns: 2%;
   padding: 0 var(--_spacer) var(--_spacer);
   
   overflow-x: auto;
   overscroll-behavior-inline: contain;
+
+   margin-top: 50px;
 }
 
 .media-element{
@@ -124,7 +177,7 @@ nav ul li a:hover {
 .media-element>img{
   inline-size: 100%;
   aspect-ratio: 16 / 9;
-  object-fit: cover;
+  object-fit: cover; 
 }
 
 .snap-inline{
@@ -138,9 +191,10 @@ nav ul li a:hover {
 
 /*Styling flip card */
 .container {
-  width: 350px;
-  height: 500px;
+  width: 250px;
+  height: 300px;
   perspective: 800px;
+  padding: 12px;
 }
 
 .container:hover > .tile-1{
@@ -168,11 +222,15 @@ backface-visibility: hidden;
 
 .front{
    background-color: #ffffff;
-
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
+
 .front img {
-  width: 100%;
+  width: 90%;
   height: auto;
   display: block;
 }
@@ -184,8 +242,10 @@ backface-visibility: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:5rem;
+  padding: 1rem;
+  box-sizing: border-box;
 }
+
 
 /* Style the footer */
 .section-footer{
@@ -211,5 +271,5 @@ backface-visibility: hidden;
   width: fit-content;
   padding: 10px;
   color: #d1932a;
-
+}
 
