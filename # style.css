@@ -118,17 +118,6 @@ nav ul li a:hover {
 }
 
 /*styling of recent events paragraph*/
-
-
-/*.current-events > p{
-  padding: 1rem;
-  font-size: large;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 30px;
-}*/
-
 .current-events > p{
   padding: 40px 20px 0px;
   font-size: large;
@@ -145,6 +134,91 @@ nav ul li a:hover {
   align-items: center;
   line-height: 30px;
 }
+
+/*styling of About us title*/
+.about > header > h1{
+  padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+/*styling of About us paragraph*/
+.about > p{
+  padding: 40px 20px 0px;
+  font-size: large;
+  line-height: 30px; 
+  max-width: 800px;  
+  margin: 0 auto;  
+}
+
+/*styling of Contact title*/
+.contact > header > h1{
+  padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+/*styling of prefect contact*/
+.prefects-contact header h2{
+  padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px; 
+  max-width: 800px;  
+  margin: 0 auto;    
+}
+
+#prefect-info .title header  h3{
+   padding: 40px 20px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    font-size: medium; 
+} 
+
+.prefects-contact h4{
+    padding: 40px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    font-size: medium;
+}
+
+
+/*styling of teachers title*/
+.Teachers> header > h1{
+  padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+/*styling of prefects who page title*/
+.Prefect> header > h1{
+  padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+/*styling of teachers title*/
+.committee> header > h1{
+  padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
 /*Styilying the flex box for current events*/
 @import "https://unpkg.com/open-props";
 @import "https://unpkg.com/open-props/normalize-min-css";
@@ -246,6 +320,150 @@ backface-visibility: hidden;
   box-sizing: border-box;
 }
 
+/*styling of both prefect and other contacts*/
+.prefects-contact,
+.other-contact{
+  flex: 1;
+}
+
+/*styling of parent of both prefect and other contacts*/
+.columns-container{
+  display: flex;
+  gap: 20px;
+}
+
+/*styling of Other Contact*/
+.other-contact header h2{
+  padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px; 
+  max-width: 800px;  
+  margin: 0 auto;    
+}
+
+.other-contact .title h3{
+    padding: 40px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    font-size: medium; 
+}
+
+.other-contact h4{
+    padding: 40px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    font-size: medium;
+}
+
+
+/*Who page styling*/
+.who-container1 {
+  width: 250px;
+  height: 300px;
+  perspective: 800px;
+  padding: 12px;
+}
+
+.card1{
+   background-color: #ffffff;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.card1 img {
+  width: 80%;
+  height: auto;
+  display: block;
+}
+
+.card1 p{
+  font-size: medium;
+  line-height: 1px;
+}
+
+
+
+/*styling of all years*/
+.year-9,
+.year-10,
+.year-11,
+.year-12,
+.year-13{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/*styling of parent for all the years*/
+.members{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+/*styling all years names + year level  */
+.title header h4{
+  padding: 1rem;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px; 
+  max-width: 800px;  
+  margin: 0 auto;    
+}
+
+/*styling the title for each year*/
+.members .year-9 h2{
+    padding: 1rem;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+.members .year-10 h2{
+    padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+.members .year-11 h2{
+    padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+.members .year-12 h2{
+    padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+.members .year-13 h2{
+    padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+
 
 /* Style the footer */
 .section-footer{
@@ -255,10 +473,32 @@ backface-visibility: hidden;
 }
 .footer{
   background-color: #106187;
-  margin-top: 50%;
-  margin-bottom: -20px;
-
+  margin-top: 10%;
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
+
+.footer-logo{
+  display:flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.footer-logo h6{
+  margin: 0;
+  font-size: 25px;
+}
+
+
+.footer-logo img{
+  height: 90px;
+  width: 95px;
+}
+
 .Copy-rights {
   text-align: right; 
   padding-top: 20px;
@@ -266,6 +506,7 @@ backface-visibility: hidden;
 }
 
 .Copy-rights h4{
+  margin: 0;
   font-size: 20px;
   display: inline-block;
   width: fit-content;
