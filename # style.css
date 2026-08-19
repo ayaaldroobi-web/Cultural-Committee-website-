@@ -117,6 +117,23 @@ nav ul li a:hover {
   line-height: 30px;
 }
 
+/*Video styling*/
+video {
+  width: 100%;        
+  height: auto;
+  border-radius: 12px;                  
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15); 
+  border: 2px solid #ffffff; 
+  display: block; 
+}
+
+.vid {
+   width: 790px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+
 /*styling of recent events paragraph*/
 .current-events > p{
   padding: 40px 20px 0px;
@@ -133,6 +150,78 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   line-height: 30px;
+}
+
+/*Styiling the calender of events*/
+ul {list-style-type: none;}
+
+/* Calendar title */
+.calendar h1{
+  padding: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+
+/* Month header */
+.month {
+  padding: 200px -15px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 10px 50px;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 20px 40px;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 14%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 20px 40px;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 14%;
+  text-align: center;
+  margin-bottom: 6px;
+  font-size:16px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 2px;
+  background: #1abc9c;
+  color: white !important
 }
 
 /*styling of About us title*/
@@ -513,4 +602,6 @@ backface-visibility: hidden;
   padding: 10px;
   color: #d1932a;
 }
+
+
 
