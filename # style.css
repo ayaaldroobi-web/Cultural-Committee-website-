@@ -3,7 +3,7 @@ h1{
     font-family: "Ubuntu", sans-serif;
     font-size: 50px;
     font-style: normal;
-    color: black;
+    color: #e5c440;
 }
 
 /*Ubuntu condenced font family*/
@@ -12,9 +12,13 @@ h2 h3 h4 h5 h6 p{
     font-family: "Ubuntu Condensed", sans-serif;
     font-style: normal;
     font-size: 45px;
-    color: black;
+    color: #e5c440;
 } 
 
+/*Styling the body*/
+body{
+  background-color: #106187;
+}
 /*Top logo styling*/
 
 .logo {
@@ -98,14 +102,12 @@ nav ul li a:hover {
 
 /*styling of welcoming paragraph*/
 .welcome-paragraph{
-  
   padding: 40px 20px 0px;
   font-size: large;
   line-height: 30px; 
   max-width: 800px;  
-  margin: 0 auto;    
-   
-   
+  margin: 0 auto; 
+  color: #e5c440;   
 }
 
 /*styling of welcome title*/
@@ -123,7 +125,7 @@ video {
   height: auto;
   border-radius: 12px;                  
   box-shadow: 0 10px 30px rgba(0,0,0,0.15); 
-  border: 2px solid #ffffff; 
+  border: 2px solid #033c82; 
   display: block; 
 }
 
@@ -140,7 +142,8 @@ video {
   font-size: large;
   line-height: 30px; 
   max-width: 800px;  
-  margin: 0 auto;  
+  margin: 0 auto; 
+  color: #e5c440; 
 }
 
 /*styling of recent events title*/
@@ -153,7 +156,9 @@ video {
 }
 
 /*Styiling the calender of events*/
-ul {list-style-type: none;}
+ul {
+  list-style-type: none;
+}
 
 /* Calendar title */
 .calendar h1{
@@ -169,7 +174,7 @@ ul {list-style-type: none;}
 .month {
   padding: 200px -15px;
   width: 100%;
-  background: #1abc9c;
+  background: #13737c;
   text-align: center;
 }
 
@@ -180,7 +185,7 @@ ul {list-style-type: none;}
 }
 
 .month ul li {
-  color: white;
+  color: #e5c440;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -190,20 +195,20 @@ ul {list-style-type: none;}
 .weekdays {
   margin: 0;
   padding: 20px 40px;
-  background-color:#ddd;
+  background-color: #033c82;
 }
 
 .weekdays li {
   display: inline-block;
   width: 14%;
-  color: #666;
+  color: #e5c440;
   text-align: center;
 }
 
 /* Days (1-31) */
 .days {
   padding: 20px 40px;
-  background: #eee;
+  background: #033c82;
   margin: 0;
 }
 
@@ -214,14 +219,14 @@ ul {list-style-type: none;}
   text-align: center;
   margin-bottom: 6px;
   font-size:16px;
-  color: #777;
+  color: #e5c440;
 }
 
 /* Highlight the "current" day */
 .days li .active {
   padding: 2px;
-  background: #1abc9c;
-  color: white !important
+  background: #16848e;
+  color: #f5f361 !important;
 }
 
 /*styling of About us title*/
@@ -239,7 +244,8 @@ ul {list-style-type: none;}
   font-size: large;
   line-height: 30px; 
   max-width: 800px;  
-  margin: 0 auto;  
+  margin: 0 auto; 
+  color: #e5c440; 
 }
 
 /*styling of Contact title*/
@@ -249,6 +255,7 @@ ul {list-style-type: none;}
   justify-content: center;
   align-items: center;
   line-height: 30px;
+  color: #e5c440; 
 }
 
 /*styling of prefect contact*/
@@ -259,7 +266,8 @@ ul {list-style-type: none;}
   align-items: center;
   line-height: 30px; 
   max-width: 800px;  
-  margin: 0 auto;    
+  margin: 0 auto; 
+  color: #e5c440;    
 }
 
 #prefect-info .title header  h3{
@@ -269,6 +277,7 @@ ul {list-style-type: none;}
     align-items: center;
     line-height: 10px;
     font-size: medium; 
+    color: #e5c440; 
 } 
 
 .prefects-contact h4{
@@ -278,6 +287,7 @@ ul {list-style-type: none;}
     align-items: center;
     line-height: 10px;
     font-size: medium;
+    color: #e5c440; 
 }
 
 
@@ -384,7 +394,8 @@ backface-visibility: hidden;
 }
 
 .front{
-   background-color: #ffffff;
+   background-color: #033c82;
+   color: #e5c440;
    display:flex;
    flex-direction: column;
    justify-content: center;
@@ -399,7 +410,8 @@ backface-visibility: hidden;
 }
 
 .back{
-  background-color: #333333;
+  background-color: #033c82;
+  color: #e5c440;
   transform: rotateY(180deg) rotateZ(180deg);
   display:flex;
   flex-direction: column;
@@ -429,7 +441,8 @@ backface-visibility: hidden;
   align-items: center;
   line-height: 30px; 
   max-width: 800px;  
-  margin: 0 auto;    
+  margin: 0 auto; 
+  color: #e5c440;    
 }
 
 .other-contact .title h3{
@@ -439,6 +452,7 @@ backface-visibility: hidden;
     align-items: center;
     line-height: 10px;
     font-size: medium; 
+    color: #e5c440; 
 }
 
 .other-contact h4{
@@ -448,6 +462,7 @@ backface-visibility: hidden;
     align-items: center;
     line-height: 10px;
     font-size: medium;
+    color: #e5c440; 
 }
 
 
@@ -460,7 +475,7 @@ backface-visibility: hidden;
 }
 
 .card1{
-   background-color: #ffffff;
+   background-color: #033c82;
    display:flex;
    flex-direction: column;
    justify-content: center;
@@ -469,13 +484,20 @@ backface-visibility: hidden;
 
 .card1 img {
   width: 80%;
-  height: auto;
+  height:auto;
   display: block;
 }
 
 .card1 p{
   font-size: medium;
+  line-height: 16px;
+  color: #e5c440; 
+}
+
+.card1 .hidden-text{
+  font-size: medium;
   line-height: 1px;
+  color: #033c82;
 }
 
 
@@ -508,7 +530,9 @@ backface-visibility: hidden;
   align-items: center;
   line-height: 30px; 
   max-width: 800px;  
-  margin: 0 auto;    
+  margin: 0 auto; 
+  color: #e5c440; 
+  background-color: #033c82;   
 }
 
 /*styling the title for each year*/
@@ -518,6 +542,8 @@ backface-visibility: hidden;
   justify-content: center;
   align-items: center;
   line-height: 30px;
+  color: #e5c440; 
+  background-color: #033c82;
 }
 
 .members .year-10 h2{
@@ -526,6 +552,8 @@ backface-visibility: hidden;
   justify-content: center;
   align-items: center;
   line-height: 30px;
+  color: #e5c440; 
+  background-color: #033c82;
 }
 
 .members .year-11 h2{
@@ -534,6 +562,8 @@ backface-visibility: hidden;
   justify-content: center;
   align-items: center;
   line-height: 30px;
+  color: #e5c440; 
+  background-color: #033c82;
 }
 
 .members .year-12 h2{
@@ -542,6 +572,8 @@ backface-visibility: hidden;
   justify-content: center;
   align-items: center;
   line-height: 30px;
+  color: #e5c440; 
+  background-color: #033c82;
 }
 
 .members .year-13 h2{
@@ -550,6 +582,8 @@ backface-visibility: hidden;
   justify-content: center;
   align-items: center;
   line-height: 30px;
+  color: #e5c440; 
+  background-color: #033c82;
 }
 
 
@@ -600,8 +634,9 @@ backface-visibility: hidden;
   display: inline-block;
   width: fit-content;
   padding: 10px;
-  color: #d1932a;
+  color: #e5c440;
 }
+
 
 
 
