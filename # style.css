@@ -28,7 +28,7 @@ body{
 
 }
 
-.logo h6{
+.logo h2{
   margin: 0;
   font-size: 25px;
   color: #e5c440;
@@ -37,8 +37,7 @@ body{
 /*Navigation Bar styling */
 nav{
   display: flex;
-  align-items:center;
- 
+  align-items:center;     
 }
 
 nav ul {
@@ -46,11 +45,8 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-   background-color: #033c82;
-  position:bottom;
-  top: 0;
-  width:100%;
- 
+  background-color: #033c82;
+  width: 100%;
 }
 
 nav ul li {
@@ -174,7 +170,7 @@ ul {
 
 /* Month header */
 .month {
-  padding: 200px -15px;
+  padding: 20px 0;
   width: 100%;
   background: #13737c;
   text-align: center;
@@ -277,7 +273,7 @@ ul {
     display:flex;
     justify-content: center;
     align-items: center;
-    line-height: 20px;
+    line-height: 24px;
     font-size: medium; 
     color: #e5c440; 
 } 
@@ -287,7 +283,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 20px;
+    line-height: 24px;
     font-size: medium;
     color: #e5c440; 
 }
@@ -469,7 +465,7 @@ left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 20px;
+    line-height: 24px;
     font-size: medium; 
     color: #e5c440; 
 }
@@ -479,7 +475,7 @@ left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 20px;
+    line-height: 24px;
     font-size: medium;
     color: #e5c440; 
 }
@@ -489,7 +485,7 @@ left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 20px;
+    line-height: 24px;
     font-size: medium;
     color: #e5c440; 
     text-decoration: none;
@@ -559,7 +555,25 @@ left: 0;
     object-fit: contain;
     display: block;
     margin-left: -145px;
-     margin-top: -70px;
+     margin-top: -80px;
+}
+
+.media-element img.teach-img2 {
+    width: auto;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    margin-left: -102px;
+     margin-top: -20px;
+}
+
+.media-element img.teach-img3 {
+    width: auto;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+    margin-left: -147px;
+     margin-top: -20px;
 }
 
 .text{
@@ -574,6 +588,7 @@ left: 0;
   color: #e5c440; 
   font-weight: bold;
   margin: 0;
+  text-align: center;
 }
 
 .title-2{
@@ -699,7 +714,7 @@ left: 0;
 }
 
 
-.footer-logo h6{
+.footer-logo h2{
   margin: 0;
   font-size: 25px;
   color: #e5c440;
@@ -717,13 +732,30 @@ left: 0;
   padding-bottom: 20px;
 }
 
-.Copy-rights h4{
+.Copy-rights h2{
   margin: 0;
   font-size: 20px;
   display: inline-block;
   width: fit-content;
   padding: 10px;
   color: #e5c440;
+}
+
+.Copy-rights h2 a {
+  color: #e5c440;
+  text-decoration: none;
+}
+
+/*text to hide for article*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}
+
 
 
 
